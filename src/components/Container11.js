@@ -10,7 +10,7 @@ const Container11 = () => {
                             Seamless Integrations - Coming Soon
                         </div>
                         <div>
-                            Upload Files directly from Google Drive, One Drive &amp Dropbox
+                            Upload Files directly from Google Drive, One Drive &amp; Dropbox
                         </div>
                         <div>
                             Afforai allows you to upload files directly from Google Drive, One Drive &amp; Dropbox, meaning your experience will be smooth sailing regardless of your preferred 
