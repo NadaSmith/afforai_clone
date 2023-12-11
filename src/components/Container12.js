@@ -1,4 +1,7 @@
 import React from "react";
+import landingImage17 from "../Images/laptop-landing-17.png";
+import landingImage18 from "../Images/laptop-landing-18.png";
+import landingImage19 from "../Images/laptop-landing-19.png";
 
 const Container12 = () => {
     return (
@@ -20,8 +23,8 @@ const Container12 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-17.png" type="image/webp" />
-                                <img src="/images/laptop-landing-17.png" alt="Security, Reliable, and Trustworthy" />
+                                <source srcSet={landingImage17} type="image/webp" />
+                                <img src={landingImage17} alt="Security, Reliable, and Trustworthy" />
                             </picture>
                         </div>
                         <div>
@@ -38,8 +41,8 @@ const Container12 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-18.png" type="image/webp"/>
-                                <img src="/images/laptop-landing-18.png" alt="Afforai gives out the best asnwer with most accurate citations" />
+                                <source srcSet={landingImage18} type="image/webp"/>
+                                <img src={landingImage18} alt="Afforai gives out the best asnwer with most accurate citations" />
                             </picture>
                         </div>
                         <div>
@@ -56,8 +59,8 @@ const Container12 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-19.png" type="image/webp" />
-                                <img src="/images/laptop-landing-19.png" alt="Afforai AI comprehends documents, not repeating them" />
+                                <source srcSet={landingImage19} type="image/webp" />
+                                <img src={landingImage19} alt="Afforai AI comprehends documents, not repeating them" />
                             </picture>
                         </div>
                         <div>

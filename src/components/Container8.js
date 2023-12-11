@@ -1,6 +1,7 @@
 import React from "react";
-import { faPowerOff,faFowardFast, faMagnifyingGlassPlus } from "@fortawesome/free-solid-svg-icons"
+import { faPowerOff, faFastForward, faMagnifyingGlassPlus } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import landingImage12 from "../Images/mobile-landing-12.png";
 
 const Container8 = () => {
     return (
@@ -9,7 +10,7 @@ const Container8 = () => {
                 <div>
                     <picture>
                         <source srcSet="/images/laptop-landing-12.png" type="image/webp"></source>
-                        <img src="/images/laptop-landing-12.png" alt="Afforai supports questions answer with Google and Deep Document search"></img>
+                        <img src="/images/laptop-landing-12.png" alt="Afforai supports questions answer with Google and Deep Document search" />
                     </picture>
                 </div>
                 <div>
@@ -25,7 +26,7 @@ const Container8 = () => {
                         </di>
                         <div>
                             <div>
-                                <FontAwesomeIcon icon={faFowardFast} />
+                                <FontAwesomeIcon icon={faFastForward} />
                                 <div>
                                     <div>
                                         <span>Fast Mode (default)</span>  

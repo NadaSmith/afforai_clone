@@ -1,4 +1,5 @@
 import React from "react";
+import landingImage11 from "../Images/mobile-landing-11.png";
 
 const Container7 = () => {
     return (
@@ -25,8 +26,8 @@ const Container7 = () => {
                 </div>
                 <div>
                     <picture>
-                        <source srcSet="/images/laptop-landing-11.png" type="image/webp" />
-                        <img src="/images/laptop-landing-11.png" alt="Afforai masters the documents you upload" />
+                        <source srcSet={landingImage11} type="image/webp" />
+                        <img src={landingImage11} alt="Afforai masters the documents you upload" />
                     </picture>
                 </div>
             </div>

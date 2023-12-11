@@ -1,6 +1,13 @@
 import React from "react";
-import { faCircleP } from "@fortawesome/free-solid-svg-icons"
+import { faCircle } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ImageSet0 from "../Images/1-0.webp";
+import ImageSet1 from "../Images/1-1.webp";
+import ImageSet2 from "../Images/1-2.webp";
+import ImageSet3 from "../Images/1-3.webp";
+import ImageSet4 from "../Images/1-4.webp";
+import ImageSet5 from "../Images/1-5.webp";
+import ImageSet6 from "../Images/1-6.webp";
 
 const Container13b = () => {
     return (
@@ -17,8 +24,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-0.webp" type="image/webp" />
-                                                <img src="/images/1-0.webp" alt="Daniel Crook, Content" />
+                                                <source srcSet={ImageSet0} type="image/webp" />
+                                                <img src={ImageSet0} alt="Daniel Crook, Content" />
                                             </picture>
                                             <div>
                                                 Danie Crook, Content
@@ -26,7 +33,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>
@@ -41,8 +48,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-1.webp" type="image/webp" />
-                                                <img src="/images/1-1.webp" alt="Axel Borry, Growth Hacker" />
+                                                <source srcSet={ImageSet1} type="image/webp" />
+                                                <img src={ImageSet1} alt="Axel Borry, Growth Hacker" />
                                             </picture>
                                             <div>
                                                 Axel Borry, Growth Hacker
@@ -50,7 +57,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>
@@ -65,8 +72,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-2.webp" type="image/webp" />
-                                                <img src="/images/1-2.webp" alt="Balamurali, Web 3 Growth Marketer" />
+                                                <source srcSet={ImageSet2} type="image/webp" />
+                                                <img src={ImageSet2} alt="Balamurali, Web 3 Growth Marketer" />
                                             </picture>
                                             <div>
                                                 Balamurali, Web 3 Growth Marketer
@@ -74,7 +81,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>
@@ -89,8 +96,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-3.webp" type="image/webp" />
-                                                <img src="/images/1-3.webp" alt="Siovash Zarrasvand, Engineer" />
+                                                <source srcSet={ImageSet3} type="image/webp" />
+                                                <img src={ImageSet3} alt="Siovash Zarrasvand, Engineer" />
                                             </picture>
                                             <div>
                                                 Siovash Zarrasvand, Engineer
@@ -98,7 +105,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>
@@ -113,8 +120,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-4.webp" type="image/webp" />
-                                                <img src="/images/1-4.webp" alt="Anna DeMarco, Communication Manager" />
+                                                <source srcSet={ImageSet4} type="image/webp" />
+                                                <img src={ImageSet4} alt="Anna DeMarco, Communication Manager" />
                                             </picture>
                                             <div>
                                                 Anna DeMarco, Communication Manager
@@ -122,7 +129,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>
@@ -137,8 +144,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-5.webp" type="image/webp" />
-                                                <img src="/images/1-5.webp" alt="TJ Franco, Founder and CEO" />
+                                                <source srcSet={ImageSet5} type="image/webp" />
+                                                <img src={ImageSet5} alt="TJ Franco, Founder and CEO" />
                                             </picture>
                                             <div>
                                                 TJ Franco, Founder and CEO
@@ -146,7 +153,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>
@@ -161,8 +168,8 @@ const Container13b = () => {
                                     <div>
                                         <div>
                                             <picture>
-                                                <source srcSet="/images/1-6.webp" type="image/webp" />
-                                                <img src="/images/1-6.webp" alt="Stephanie, Digital Marketer" />
+                                                <source srcSet={ImageSet6} type="image/webp" />
+                                                <img src={ImageSet6} alt="Stephanie, Digital Marketer" />
                                             </picture>
                                             <div>
                                                 Stephanie, Digital Marketer
@@ -170,7 +177,7 @@ const Container13b = () => {
                                         </div>
                                         <a href="https://www.producthunt.com/products/afforai/">
                                             <div>
-                                                <FontAwesomeIcon icon={faCircleP} />
+                                                <FontAwesomeIcon icon={faCircle} />
                                                 <span>View on Product Hunt</span>
                                             </div>
                                         </a>

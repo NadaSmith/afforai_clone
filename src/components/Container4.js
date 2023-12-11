@@ -1,6 +1,7 @@
 import React from "react";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import landingImage4 from "../Images/mobile-landing-4.png";
 
 const Container4 = () => {
     return (
@@ -38,8 +39,8 @@ const Container4 = () => {
 
                 <div>
                     <picture>
-                        <source srcSet="/images/laptop-landing-4.png" type="image/webp"></source>
-                        <img src="/images/laptop-landing-4.png" />
+                        <source srcSet={landingImage4} type="image/webp"></source>
+                        <img src={landingImage4} />
                     </picture>
                 </div>
            </div>

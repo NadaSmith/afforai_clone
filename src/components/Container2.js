@@ -1,6 +1,9 @@
 import React from "react";
-import { faAngleRight, faSolidCheck } from "@fortawesome/free-solid-svg-icons"
+import { faAngleRight, faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import appsumoImage from "../Images/appsumo.png";
+import landingImage1 from "../Images/laptop-landing-1.png";
+import landingImage3 from "../Images/laptop-landing-3.png";
 
 const Container2 = () => {
     return (
@@ -8,11 +11,13 @@ const Container2 = () => {
             <div>
                 <div>
                     <div>
-                        <img src="/images/appsumo.png"/>
+                        <img src={appsumoImage} alt=""/>
                         <span>Now on AppSumo</span>
                         <a href="https://appsumo.8odi.net/3eR3xn">
                             <span>Get Lifetime Deal</span>
-                            <div><FontAwesomeIcon icon={faAngleRight} /></div>
+                            <div>
+                                <FontAwesomeIcon icon={faAngleRight} />
+                            </div>
                         </a>
                     </div>
                     <di>
@@ -24,19 +29,27 @@ const Container2 = () => {
                 </div>
                 <div>
                     <div>
-                        <div>FontAwesomeIcon icon={faSolidCheck} </div>
+                        <div>
+                            <FontAwesomeIcon icon={faCheck} />
+                        </div>
                         Summarize Key Findings
                     </div>
                     <div>
-                        <div>FontAwesomeIcon icon={faSolidCheck} </div>
+                        <div>
+                            <FontAwesomeIcon icon={faCheck} />
+                            </div>
                         Compare Between Documents
                     </div>
                     <div>
-                        <div>FontAwesomeIcon icon={faSolidCheck} </div>
+                        <div>
+                            <FontAwesomeIcon icon={faCheck} />
+                        </div>
                         Search for Answers
                     </div>
                     <div>
-                        <div>FontAwesomeIcon icon={faSolidCheck} </div>
+                        <div>
+                            <FontAwesomeIcon icon={faCheck} />
+                        </div>
                         Ask in Any Language
                     </div>
                 </div>
@@ -49,10 +62,10 @@ const Container2 = () => {
                     </button>
                 </div>
                 <div>
-                    <img src="image/laptop-landing-1.png" />
+                    <img src={landingImage1} alt="" />
                 </div>
                 <div>
-                    <img src="image/laptop-landing-3.png" />
+                    <img src={landingImage3} alt="" />
                 </div>
             </div>
         </div>

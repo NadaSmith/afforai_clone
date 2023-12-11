@@ -1,4 +1,5 @@
 import React from "react";
+import landingImage20 from "../Images/laptop-landing-20.png";
 
 const Container14 = () => {
     return (
@@ -20,8 +21,8 @@ const Container14 = () => {
                     </div>
                     <div>
                         <picture>
-                            <source srcSet="/images/laptop-landing-20.png" type="image/webp" />
-                            <img src="/images/laptop-landing-20.png" alt="100% money back gaurantee" />
+                            <source srcSet={landingImage20} type="image/webp" />
+                            <img src={landingImage20} alt="100% money back gaurantee" />
                          </picture>
                     </div>
                 </div>

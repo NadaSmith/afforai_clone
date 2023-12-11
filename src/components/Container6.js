@@ -1,4 +1,9 @@
 import React from "react";
+import landingImage6 from "../Images/mobile-landing-6.png";
+import landingImage7 from "../Images/mobile-landing-7.png";
+import landingImage8 from "../Images/mobile-landing-8.png";
+import landingImage9 from "../Images/mobile-landing-9.png";
+import landingImage10 from "../Images/mobile-landing-10.png";
 
 const Container6 = () => {
     return (
@@ -23,8 +28,8 @@ const Container6 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-6.png" type="image/webp" />
-                                <img src="/images/laptop-landing-6.png" alt="Afforai supports multiple languages" />
+                                <source srcSet={landingImage6} type="image/webp" />
+                                <img src={landingImage6} alt="Afforai supports multiple languages" />
                             </picture>
                         </div>
                         <div>
@@ -44,8 +49,8 @@ const Container6 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-7.png" type="image/webp" />
-                                <img src="/images/laptop-landing-7.png" alt="Afforai support multiple document formats" />
+                                <source srcSet={landingImage7} type="image/webp" />
+                                <img src={landingImage7} alt="Afforai support multiple document formats" />
                             </picture>
                         </div>
                         <div>
@@ -64,8 +69,8 @@ const Container6 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-8.png" type="image/webp" />
-                                <img src="/images/laptop-landing-8.png" alt="Afforai shows you how it got its answer" />
+                                <source srcSet={landingImage8} type="image/webp" />
+                                <img src={landingImage8} alt="Afforai shows you how it got its answer" />
                             </picture>
                         </div>
                         <div>
@@ -83,8 +88,8 @@ const Container6 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-10.png" type="image/webp" />
-                                <img src="/images/laptop-landing-10.png" alt="Built in Document Viewer" />
+                                <source srcSet={landingImage10} type="image/webp" />
+                                <img src={landingImage10} alt="Built in Document Viewer" />
                             </picture>
                         </div>
                         <div>
@@ -101,8 +106,8 @@ const Container6 = () => {
                     <div>
                         <div>
                             <picture>
-                                <source srcSet="/images/laptop-landing-9.png" type="image/webp" />
-                                <img src="/images/laptop-landing-9.png" alt="Afforai is secured with the power of the cloud" />
+                                <source srcSet={landingImage9} type="image/webp" />
+                                <img src={landingImage9} alt="Afforai is secured with the power of the cloud" />
                             </picture>
                         </div>
                         <div>

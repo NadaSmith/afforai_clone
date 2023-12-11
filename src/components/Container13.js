@@ -1,8 +1,7 @@
 import React from "react";
-import { faCircleP } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container13a from "./Container13a";
 import Container13b from "./Container13b";
+import reviewImage from "../Images/ph-review.webp";
 
 const Container13 = () => {
     return (
@@ -12,8 +11,8 @@ const Container13 = () => {
                     <div>
                         <a href="https://www.producthunt.com/products/afforai/">
                             <picture>
-                                <source srcSet="/images/ph-review.webp" type="image/webp" />
-                                <img src="/images/ph-review.webp" alt="Product Hunt Review 4.9/5" />
+                                <source srcSet={reviewImage} type="image/webp" />
+                                <img src={reviewImage} alt="Product Hunt Review 4.9/5" />
                             </picture>
                         </a>
                         <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import landingImage16 from "../Images/laptop-landing-16.png";
 
 const Container15 = () => {
     return (
@@ -18,7 +19,7 @@ const Container15 = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="/images/laptop-landing-16.png" />
+                    <img src={landingImage16} />
                 </div>
             </div>
         </div>

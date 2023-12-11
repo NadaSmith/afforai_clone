@@ -1,4 +1,6 @@
 import React from "react";
+import newLogo from "../Images/logo-new-violet.webp";
+import sputnik from "../Images/sputnikatx.png";
 
 const Container17 = () => {
     return (
@@ -10,8 +12,8 @@ const Container17 = () => {
                             <div>
                                 <div>
                                     <picture>
-                                        <source srcSet="/images/logo-new-violet.webp" type="image/webp" />
-                                        <img src="/images/logo-new-violent.png" alt="Afforai Logo" />
+                                        <source srcSet={newLogo} type="image/webp" />
+                                        <img src={newLogo} alt="Afforai Logo" />
                                     </picture>
                                     <div>
                                         Afforai
@@ -29,7 +31,7 @@ const Container17 = () => {
                                 <div>
                                     Backed by
                                 </div>
-                                <img src="/images/sputnikatx.png" alt="Sputnik A TX VC" />
+                                <img src={sputnik} alt="Sputnik A TX VC" />
                             </div>
                         </div>
                         <div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImage from "../Images/logo-new-violet.webp";
 
 const Nav = () => {
 
@@ -8,8 +9,8 @@ const Nav = () => {
                 <div>
                     <a href='/'>
                         <picture>
-                            <source srcSet='/imgages/graphics/logo-new-violet.webp' type='image/webp' />
-                            <img src='images/logo-new-violet.webp' alt='Afforai Logo' />  
+                            <source srcSet={logoImage} type='image/webp' />
+                            <img src={logoImage} alt='Afforai Logo' />  
                         </picture>
 
                         <div>Afforai</div>

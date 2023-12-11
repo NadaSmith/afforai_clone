@@ -1,4 +1,5 @@
 import React from "react";
+import landingImage14 from "../Images/laptop-landing-14.png";
 
 const Container10 = () => {
     return (
@@ -19,8 +20,8 @@ const Container10 = () => {
                 </div>
                 <div>
                     <picture>
-                        <source srcSet="/images/laptop-landing-14.png" type="image/webp" />
-                        <img src="/images/laptop-landing-14.png" alt="Translate, convert, summarize your files with File Wizard" />
+                        <source srcSet={landingImage14} type="image/webp" />
+                        <img src={landingImage14} alt="Translate, convert, summarize your files with File Wizard" />
                     </picture>
                 </div>
            </div>
