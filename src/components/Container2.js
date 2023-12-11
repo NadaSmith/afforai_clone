@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Container2.css";
 import { faAngleRight, faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import appsumoImage from "../Images/appsumo.png";
@@ -7,7 +8,7 @@ import landingImage3 from "../Images/laptop-landing-3.png";
 
 const Container2 = () => {
     return (
-        <div>
+        <div className="container2">
             <div>
                 <div>
                     <div>

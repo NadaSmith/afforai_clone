@@ -1,11 +1,12 @@
 import React from 'react';
 import logoImage from "../Images/logo-new-violet.webp";
+import "../Styles/Nav.css" ;
 
 const Nav = () => {
 
     return (
-        <Nav className="nav-contianer">
-            <div>
+        <nav >
+            <div className="nav-container">
                 <div className="nav-section1">
                     <a href='/'>
                         <picture>
@@ -13,7 +14,7 @@ const Nav = () => {
                             <img src={logoImage} alt='Afforai Logo' />  
                         </picture>
 
-                        <div>Afforai</div>
+                        <div className='title'>Afforai</div>
                     </a>
                 </div>
                 
@@ -35,17 +36,17 @@ const Nav = () => {
                     </a>
                 </div>
 
-                <div className="nav-section366">
-                    <button type='button' >
+                <div className="nav-section3">
+                    <button className='button1' type='button' >
                         Log in
                     </button>
 
-                    <button type='button'>
+                    <button className='button2' type='button'>
                         Try for Free
                     </button>
                 </div>
             </div>
-        </Nav>
+        </nav>
     );
 
 };
