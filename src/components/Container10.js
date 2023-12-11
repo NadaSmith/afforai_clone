@@ -15,7 +15,7 @@ const Container10 = () => {
                         File Wizard - a game changing new feature
                     </div>
                     <div>
-                        Convert your files with less effort than ever. Afforai’s File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time.
+                        Convert your files with less effort than ever. Afforai's File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time.
                     </div>
                 </div>
                 <div>

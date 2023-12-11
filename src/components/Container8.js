@@ -9,8 +9,8 @@ const Container8 = () => {
             <div>
                 <div>
                     <picture>
-                        <source srcSet="/images/laptop-landing-12.png" type="image/webp"></source>
-                        <img src="/images/laptop-landing-12.png" alt="Afforai supports questions answer with Google and Deep Document search" />
+                        <source srcSet={landingImage12} type="image/webp"></source>
+                        <img src={landingImage12} alt="Afforai supports questions answer with Google and Deep Document search" />
                     </picture>
                 </div>
                 <div>
