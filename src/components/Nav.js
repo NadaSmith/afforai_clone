@@ -4,9 +4,9 @@ import logoImage from "../Images/logo-new-violet.webp";
 const Nav = () => {
 
     return (
-        <nav>
+        <Nav className="nav-contianer">
             <div>
-                <div>
+                <div className="nav-section1">
                     <a href='/'>
                         <picture>
                             <source srcSet={logoImage} type='image/webp' />
@@ -17,7 +17,7 @@ const Nav = () => {
                     </a>
                 </div>
                 
-                <div>
+                <div className="nav-section2">
                     <a href='https://afforai.getrewardful.com/signup'>
                         <span>Affiliate</span>
                     </a>
@@ -35,7 +35,7 @@ const Nav = () => {
                     </a>
                 </div>
 
-                <div>
+                <div className="nav-section366">
                     <button type='button' >
                         Log in
                     </button>
@@ -45,7 +45,7 @@ const Nav = () => {
                     </button>
                 </div>
             </div>
-        </nav>
+        </Nav>
     );
 
 };

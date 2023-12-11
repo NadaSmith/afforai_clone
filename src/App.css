@@ -1,0 +1,36 @@
+.app {
+    border: solid black;
+}
+
+/*============== Nav Component ==============*/
+
+.nav-container {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-section1 picture {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.nav-conatiner div:last-child {
+    display: flex;
+}
+
+.nav-container button {
+    margin-right: 10px;
+}

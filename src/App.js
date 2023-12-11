@@ -20,7 +20,7 @@ import Container17 from "./Components/Container17.js";
 
 function App() {
   return (
-    <div >
+    <div className="app">
       <Nav />
       <Container2 />
       <Container3 />
