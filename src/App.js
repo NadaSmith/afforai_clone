@@ -4,29 +4,29 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Container-2 />
-      <Container-3 />
-      <Container-4 />
-      <Container-5 />
-      <Container-6 />
-      <Container-7 />
-      <Container-8 />
-      <Container-9 />
-      <Container-10 />
-      <Container-11 />
-      <Container-12 />
-      <Container-13 />
-      <Container-14 />
-      <Container-15 />
-      <Container-16 />
-      <Container-17 />
-      <Container-18 />
-      <Container-19 />
-      <Container-20 />
-      <Container-21 />
-      <Container-22 />
-      <Container-23 />
-      <Container-25 />
+      <Container2 />
+      <Container3 />
+      <Container4 />
+      <Container5 />
+      <Container6 />
+      <Container7 />
+      <Container8 />
+      <Container9 />
+      <Container10 />
+      <Container11 />
+      <Container12 />
+      <Container13 />
+      <Container14 />
+      <Container15 />
+      <Container16 />
+      <Container17 />
+      <Container18 />
+      <Container19 />
+      <Container20 />
+      <Container21 />
+      <Container22 />
+      <Container23 />
+      <Container25 />
     </div>
   );
 }
