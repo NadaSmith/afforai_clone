@@ -1,0 +1,147 @@
+.Container6 {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.wordContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: solid purple;
+    border-radius: 10px;
+    padding: 0.8em;
+    color: purple;
+    font-size: 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 45px;
+    padding-top: 1em;
+}
+
+.paragraph {
+    padding-top: 1em;
+    color: slategray;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.firstImage {
+    border: lightgrey solid ;
+    border-radius: 10px;
+    margin-left: 7em;
+    margin-right: 2em;
+}
+
+.topPart {
+    background-color:cornsilk;
+}
+
+.firstImage img {
+    width: 700px;
+    height: 500px;
+    
+}
+
+.secondImage {
+    border: lightgrey solid ;
+    border-radius: 10px;
+    margin-right: 7em;
+}
+
+.secondImage img {
+    width: 700px;
+    height: 500px;
+}
+
+.wordSection {
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.wordSectionTitle {
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+}
+
+.wordSectionTitle span {
+    margin-right: 1em;
+}
+
+.new {
+    color: purple;
+    border: purple solid;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.wordSectionParagraph {
+    color: slategrey;
+    font-size: 18px;
+}
+
+.lastRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.column {
+    margin-left: 5em;
+    padding-left: 2em;
+    margin-right: 1em;
+}
+
+.thirdImage {
+    border: lightgrey solid ;
+    border-radius: 10px;
+}
+
+.thirdImage img {
+    width: 500px;
+    height: 400px;
+
+}
+
+.fourthImage {
+    border: lightgrey solid ;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+.fourthImage img {
+    width: 500px;
+    height: 400px;
+}
+
+.fifthImage {
+    border: lightgrey solid ;
+    border-radius: 10px;
+    margin-right: 7em;
+}
+
+.fifthImage img {
+    width: 800px;
+    height: 960px;
+
+}
+
+.wordSectionParagraph a {
+    margin-right: 2em;
+}
