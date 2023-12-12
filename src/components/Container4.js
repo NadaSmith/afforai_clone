@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../Styles/Container4.module.css"
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import landingImage4 from "../Images/mobile-landing-4.png";
@@ -6,30 +7,30 @@ import landingImage4 from "../Images/mobile-landing-4.png";
 const Container4 = () => {
     return (
         <div>
-           <div>
-                <div>
+           <div className={styles.Container4}>
+                <div className={styles.wordContent}>
                     <div>
-                        <div>
-                            Say goodbye to long, tiresome documents
+                        <div className={styles.title}>
+                            Say goodbye to long, tiresome<br />documents
                         </div>
-                        <div>
-                        Afforai seamlessly translates documents, files, spreadsheets &amp; websites, filtering out what you don't need &amp; answering your specific questions within seconds.
+                        <div className={styles.paragraph}>
+                        Afforai seamlessly translates documents, files, spreadsheets &amp;<br />websites, filtering out what you don't need &amp; answering your<br />specific questions within seconds.
                         </div>
-                        <div>
+                        <div className={styles.list}>
                             {/* Couldn't download the circled checkmark image*/}
-                            <div>
+                            <div className={styles.listItems}>
                                 <FontAwesomeIcon icon={faCircleCheck} />
                                 <span>A whip smart research assistant</span>
                             </div>
-                            <div>
+                            <div className={styles.listItems}>
                                 <FontAwesomeIcon icon={faCircleCheck} />
                                 <span>We speak every language</span>
                             </div>
-                            <div>
+                            <div className={styles.listItems}>
                                 <FontAwesomeIcon icon={faCircleCheck} />
                                 <span>Reliable data citation for answers</span>
                             </div>
-                            <div>
+                            <div className={styles.listItems}>
                                 <FontAwesomeIcon icon={faCircleCheck} />
                                 <span>Fort-Knox level data security</span>
                             </div>
@@ -37,8 +38,8 @@ const Container4 = () => {
                     </div>
                 </div>
 
-                <div>
-                    <picture>
+                <div className={styles.pictureContainer}>
+                    <picture className={styles.picture}>
                         <source srcSet={landingImage4} type="image/webp"></source>
                         <img src={landingImage4} />
                     </picture>
