@@ -1,0 +1,65 @@
+.Container7 {
+    margin-top: 25em;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+}
+
+.box {
+    border: purple solid;
+    padding: 1em;
+    width: 100px;
+    border-radius: 10px;
+    color: purple;
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+
+.textContent {
+    margin-left: 10em;
+    width: 900px;
+}
+
+.imageContainer img {
+    width: 600px;
+    height: 800px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.paragraph {
+    color: slategray;
+    padding-top: 2em;
+    font-size: 24px;
+}
+
+.buttons {
+    padding-top: 2em;
+}
+
+.button1 {
+    background-color: purple;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 150px;
+    margin-right: 2em;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button2 {
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    width: 150px;
+    margin-right: 2em;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}
