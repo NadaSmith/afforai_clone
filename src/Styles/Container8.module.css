@@ -1,0 +1,77 @@
+.Container8 {
+    margin-top: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer img {
+    width: 600px;
+    height: 500px;
+}
+
+.imageContainer {
+    margin-left: 8em;
+}
+
+.textContainer {
+    margin-right: 12em;
+    margin-left: 4em;
+}
+
+.box {
+    border: purple solid;
+    padding: 1em;
+    width: 220px;
+    border-radius: 10px;
+    color: purple;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.paragraph {
+    color: slategray;
+    padding-top: 2em;
+    font-size: 24px;
+}
+
+.list {
+    padding-top: 2em;
+}
+
+.listItems {
+    display: flex;
+    flex-direction: row;
+    color: purple;
+    padding-top: 2em;
+}
+
+.titlePart {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 1em;
+}
+
+.titlePart span:first-child {
+    margin-left: 1em;
+}
+
+.titlePart span:last-child {
+    border: none;
+    background-color:plum;
+    border-radius: 20px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 2em;
+}
+
+.paragraphPart {
+    font-size: 22px;
+    margin-left: 1em;
+}
