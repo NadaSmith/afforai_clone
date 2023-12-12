@@ -1,6 +1,6 @@
 /*===================Nav Bar====================*/
 
-.nav-container {
+.navContainer {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid gray;
     border-radius: 10px;
@@ -15,6 +15,7 @@
     margin-top: 2em;
     margin-left: 9.5em;
     backdrop-filter: blur(10px);
+    z-index: 1000;  /*high enough above other elements to keep its effect*/
 }
 
 picture img {
@@ -27,22 +28,22 @@ picture {
     margin-right: 0.5em;
 }
 
-.nav-section1 a {
+.navSection1 a {
     display: flex;
     text-decoration: none;
     color: black;
     margin-right: 20px;
 }
 
-.nav-container button {
+.navContainer button {
     margin-right: 10px;
 }
 
-.nav-section2 {
+.navSection2 {
     display: flex;
 }
 
-.nav-section2 a {
+.navSection2 a {
     text-decoration: none;
     color: black;
 }
@@ -51,7 +52,7 @@ a {
     padding: 1.5em;
 }
 
-.nav-section3 {
+.navSection3 {
     display: flex;
     
 }
@@ -74,7 +75,7 @@ a {
     font-weight: bold;
 }
 
-.nav-section2 span {
+.navSection2 span {
     font-weight:600;
 }
 
