@@ -1,0 +1,33 @@
+.Container11 {
+    margin-top: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: purple solid;
+    width: 350px;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-left: 10em;
+    font-size: 20px;
+    text-align: center;
+    color: purple;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.paragraph {
+    color: slategray;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 7em;
+}
