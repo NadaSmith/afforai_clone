@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../Styles/Container13.module.css";
 import { faCircle } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image0 from "../Images/0-0.webp";
@@ -10,14 +11,17 @@ import Image5 from "../Images/0-5.webp";
 import Image6 from "../Images/0-6.webp";
 
 const Container13a = () => {
+
+   //If I had more time, I would implement JavaScript logic to dynamically calculate the width of each item and the container. Then I would implement a function to transition the container's postiion to the left, creating a sliding effect. After transition to the next item, I would move the first item to the end ot create a loopnig effect.
+
     return (
         <div>
             <div>
                 <div>
                     <div>
-                        <div>
-                            <div>
-                                <div>
+                        <div className={styles.Container13a}>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         I've signed up and starting testing Afforai Ask for my next project's business model, and I have had a great experience so far. It has been exactly what I needed with its fast response times. For now, I am considering purchasing the Afforai - Lite Plan.
                                     </div>
@@ -40,8 +44,8 @@ const Container13a = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         The platform is free to use with a pay-as-you-go option, and there are no subscriptions required. The platform's Comprehension Model is highly recommended for tasks like document comprehension, reasoning, report writing, and research.
                                     </div>
@@ -64,8 +68,8 @@ const Container13a = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         I love it! Build totally changed the way I use my unstructured text data at school and in my internship this summer. Something special is brewing over at Afforai!
                                     </div>
@@ -88,8 +92,8 @@ const Container13a = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         Great tool for text analysis and emphasizing the main idea of a document. Especially when you need a quick answer without tones of epithets that beautifully describe something that can be actually described in a few words:)
                                     </div>
@@ -112,8 +116,8 @@ const Container13a = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         This looks good to ease out the data analysis task for the users. But in the Affroi build guide, I couldn't see how efficiently the data analysis is done. Guess I have to take a subscription for it. The product looks great and has a User-friendly interface. Congrats on the launch.
                                     </div>
@@ -136,8 +140,8 @@ const Container13a = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         Great UI! Excited to dive deeper in the software and it's benefits. Already had it write me a couple of emails to clients, as well as give great suggestions on a new ad campaign coming up! overall great product
                                     </div>
@@ -160,8 +164,8 @@ const Container13a = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className={styles.carousel}>
+                                <div className={styles.Item}>
                                     <div>
                                         AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.
                                     </div>

@@ -1,0 +1,47 @@
+.Container13 {
+    margin-top: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.link picture  img{
+    width: 250px;
+    height: 100px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.paragraph {
+    padding-top: 0.5em;
+    color: slategray;
+    font-size: 22px;
+    text-align: center;
+}
+
+.Container13a {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.reviewBox {
+    border: solid lightgray;
+    border-radius: 10px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
